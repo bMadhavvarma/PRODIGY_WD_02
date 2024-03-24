@@ -108,3 +108,22 @@ button:hover{
     display: inline-block;
     margin-left: 25px;
 }
+.lap-clear-button{
+    display:block;
+    z-index: 1000;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    width: 150px;
+    background-color:whitesmoke;
+    color:black;
+    font-size: 15px;
+    height: max-content;
+    padding: 10px 0;
+    border-radius: 50px;
+    bottom: 30px;
+}
+.lap-clear-button:hover{
+    background-color:red;
+    color:white;
+}
